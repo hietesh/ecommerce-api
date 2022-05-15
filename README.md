@@ -18,3 +18,28 @@ Note:- (MongoDb should be installed on the system inorder to start this project)
 
 # Below are the defined API's
 
+1) API to add the products to the database (**POST REQUEST**)(Test this API in Postman or any prefferd REST CLIENT)
+
+  localhost:4000/api/products/create
+
+  Define the below in the body section of POSTMAN (POST REQUEST)  
+
+  TIP:- set the body type as **RAW -> JSON**
+
+  Eg:- 
+  {
+      "name": "Prod 1",
+      "quantity": 3
+  }
+
+2) API to list products (**GET REQUEST**)
+
+  localhost:4000/api/products/
+  
+3) API to delete products (**DELETE REQUEST**)
+  localhost:4000/api/products/:id
+
+4) API to update quantity of a product (**PUT REQUEST**)
+   (This request will increment and decrement the quantity based on the number provided)
+  localhost:4000/api/products/:id/update_quantity/?number=12
+
