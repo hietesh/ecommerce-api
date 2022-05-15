@@ -43,3 +43,11 @@ Note:- (MongoDb should be installed on the system inorder to start this project)
    (This request will increment and decrement the quantity based on the number provided)
   localhost:4000/api/products/:id/update_quantity/?number=12
 
+
+Hosted the api on Heroku + mongodb cloud (you can also hit the api request via the below links)
+
+https://ecommerceapihietesh.herokuapp.com/api/products
+
+Thank you!!!!!!
+
+
